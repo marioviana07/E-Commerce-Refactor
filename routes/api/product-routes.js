@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
+const { response };
 
 // The `/api/products` endpoint
 
@@ -21,7 +22,8 @@ router.get('/', (req, res) => {
         })
         .catch((err) => {
             console.log(err);
-        })
+            res.status(500).json(err);
+        });
 });
 
 // get one product
