@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
-const { response };
+const { response } = require("express");
 
 // The `/api/products` endpoint
 
@@ -37,7 +37,7 @@ router.get('/:id', (req, res) => {
             include: [
                 Category,
                 {
-                    model: tag,
+                    model: Tag,
                     through: ProductTag,
                 },
             ],
