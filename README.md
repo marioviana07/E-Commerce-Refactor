@@ -1,7 +1,8 @@
 # E-commerce Back End Starter Code
 
 
-## [Click to watch the Tutorial Video]()
+## [Click to watch the Tutorial Video 1](https://drive.google.com/file/d/1RrMx2yTp81ZO0VhrpCuCm8QhOI4L4_gP/view)
+## [Click to watch the Tutorial Video 2]()
 
 
 # Description
